@@ -13,5 +13,8 @@
 	pattern="yyyy年MM月dd日"/><br>
 年龄:<fmt:formatDate value="${requestScope.user.age}"
 				   pattern="yyyy年MM月dd日"/><br>
+
+
+
 </body>
 </html>

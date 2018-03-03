@@ -15,13 +15,21 @@ public class User implements Serializable{
 	
 	private String loginname;
 	private Date birthday;
-
+	private String password;
 	private Date age;
 
 
 	public User() {
 		super();
 		// TODO Auto-generated constructor stub
+	}
+
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
 	}
 
 	public Date getAge() {
